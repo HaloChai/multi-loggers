@@ -1,10 +1,25 @@
 {
-    "name": "multi-loggers",
-    "version": "0.0.1",
-    "private": false,
-    "repository": {
+  "name": "multi-loggers",
+  "version": "0.0.1",
+  "private": false,
+  "repository": {
     "type": "git",
-        "url": "https://github.com/HaloChai/multi-loggers"
-    },
-    "dependencies": {}
+    "url": "https://github.com/HaloChai/multi-loggers"
+  },
+  "bugs": {
+    "url": "https://github.com/HaloChai/multi-loggers/issues"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {},
+  "gitHead": "e85de1869784fa4789b6d90afd534e4137f83a29",
+  "description": "multi-loggers\r =============",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "halo_chai <link1750@gmail.com>",
+  "license": "BSD"
 }
