@@ -33,7 +33,7 @@ logger.err('test err.');    // Save "test err" to 'err.log' file.
 ### Exception logger.
 
 ```javascript
-var ml = require('../multi-loggers');
+var ml = require('multi-loggers');
 
 var logger = new ml.init({
     // if exception occurs, it can auto save to 'exception.log' file.
