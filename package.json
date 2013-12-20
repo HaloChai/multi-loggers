@@ -1,6 +1,6 @@
 {
   "name": "multi-loggers",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "private": false,
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
   "readmeFilename": "README.md",
   "dependencies": {},
   "gitHead": "e85de1869784fa4789b6d90afd534e4137f83a29",
-  "description": "multi-loggers\r =============",
+  "description": "multi-loggers",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -21,5 +21,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "halo_chai <link1750@gmail.com>",
-  "license": "BSD"
+  "license": "BSD",
+  "keywords": [
+    "log",
+    "loggers"
+  ]
 }
