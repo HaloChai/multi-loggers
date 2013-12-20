@@ -20,13 +20,6 @@ ml.init = function( options ) {
         });
     }
     
-    if( options.exceptionCatch ) {
-        new ml.exception.listener({ 
-            show : ((options.exceptionCatch.show) === 'undefined') ? false : options.exceptionCatch.show, 
-            file : options.exceptionCatch.file 
-        });
-    }
-    
     return body;
 };
 
