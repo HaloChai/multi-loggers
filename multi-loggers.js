@@ -20,6 +20,18 @@ ml.init = function( options ) {
         });
     }
     
+    body.add = function( logger ) {
+        var method = logger.method,
+            file = logger.file;
+        if( body[method] ) {
+            return 'Logger_Has_Been_Created';
+        }
+        var transport = new ml.logger.setting({ method : method, file : file });
+        body[method] = transport[method];
+    };
+    
+    body.remove = function( method ) { delete body[method]; };
+    
     return body;
 };
 

@@ -17,3 +17,10 @@ logger.err('test err.');
 setTimeout(function() {
     console.log(test.name);
 }, 2000);
+
+// Add new logger
+logger.add({ method : 'plus', file : 'plus.log' });
+logger.plus('test plus');
+
+// Remove logger
+logger.remove('info');

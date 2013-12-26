@@ -1,6 +1,7 @@
 {
   "name": "multi-loggers",
-  "version": "0.0.6",
+  "description": "multi-loggers is a simple module, you can decide how to use by yourself.",
+  "version": "0.0.7",
   "private": false,
   "repository": {
     "type": "git",
@@ -12,7 +13,6 @@
   "readmeFilename": "README.md",
   "dependencies": {},
   "gitHead": "e85de1869784fa4789b6d90afd534e4137f83a29",
-  "description": "multi-loggers",
   "main": "index.js",
   "directories": {
     "test": "test"
