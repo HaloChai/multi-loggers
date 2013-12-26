@@ -1,7 +1,7 @@
 {
   "name": "multi-loggers",
   "description": "multi-loggers is a simple module, you can decide how to use by yourself.",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "private": false,
   "repository": {
     "type": "git",

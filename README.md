@@ -9,14 +9,14 @@ multi-loggers is a simple module, you can decide how to use by yourself.
 
 ## Simple to use
 ```javascript
-var ml = require('../multi-loggers');
+var ml = require('multi-loggers');
 
 var logger = new ml.init({
     transports : [
         new ml.logger.setting({ method : 'info', file : 'info.log' }),
         new ml.logger.setting({ method : 'err', file : 'err.log' }),
     ],
-    exceptionCatch : { show : false, file : 'exception.log' }
+    exceptionCatch : { file : 'exception.log' }
 });
 
 logger.info('OK!');
