@@ -1,14 +1,14 @@
 {
   "name": "multi-loggers",
   "description": "multi-loggers is a simple module, you can decide how to use by yourself.",
-  "version": "0.0.8",
+  "version": "1.0.0",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/HaloChai/multi-loggers"
+    "url": "https://github.com/Jeff-Chai/multi-loggers"
   },
   "bugs": {
-    "url": "https://github.com/HaloChai/multi-loggers/issues"
+    "url": "https://github.com/Jeff-Chai/multi-loggers/issues"
   },
   "readmeFilename": "README.md",
   "dependencies": {},
@@ -20,10 +20,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "halo_chai <link1750@gmail.com>",
-  "license": "BSD",
+  "author": "jeff-chai <link1750@gmail.com>",
+  "license": "MIT",
   "keywords": [
     "log",
+    "logger",
     "loggers"
   ]
 }
